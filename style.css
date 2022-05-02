@@ -1,0 +1,84 @@
+header{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    border-bottom: 1rem;
+}
+header img {
+    
+    height: 65px;
+    width: 65px;
+    margin-top: .5rem;
+    margin-left: 2%;
+}
+header h1{
+    align-self: center;
+    margin-left: 1%;
+    font-size: 45px; 
+    min-width: 400px;
+}
+ .bar{
+    height: 20px;
+    background-color: green
+}
+section {
+    margin-top: 1rem;
+    margin-left: 2%;
+    margin-bottom: 2rem;
+    max-width: 40rem;
+    padding: 2%;
+    box-shadow: 2px 2px 2px 2px ;
+}
+
+.format{
+    display: flex;
+   width: 800px;
+}
+.about{
+    position: static;
+    width: 23rem;
+}
+.mainContent{
+    position: static;
+    width: 70rem;
+    margin-right:1rem;
+}
+.card{
+      max-width: 40rem;
+}
+
+.grid{
+    display: grid;
+    padding-left: 2%;
+}
+
+.name{
+    grid-column: 1;
+    grid-row: 1;
+}
+.programLang{
+    grid-column: 3;
+    grid-row:1;
+    text-align: right;
+}
+
+.content{
+    padding-left: 5%;
+    grid-row: 2;
+    grid-column-end: span 3;
+}
+.grid a{
+    display: flex;
+    grid-row: 3;
+    grid-column: 1;
+    justify-content: center;
+    align-self: center;
+    grid-column-end: span 3;
+}
+.about {
+    text-align: center;
+}
+.about ul{
+    text-align: left;
+}
+
