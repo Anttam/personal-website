@@ -51,6 +51,7 @@ section {
 .about{
     position: static;
     width: 24rem;
+    margin-left: 1%;
 }
 .mainContent{
     position: static;
@@ -143,14 +144,14 @@ section {
         margin-left: 0;
     }
     header img{
-        width : 80pt;
-        height: 80pt;
+        width : 60pt;
+        height: 60pt;
         margin-left: 0;
-        padding-top: 2rem; 
+        padding-top: 2.5rem; 
     }
     header h1{
         align-self:flex-end;
-        margin-left: 11px;
+        margin-left: 2px;
         padding-top: 1rem;   
   }
   .grid {
