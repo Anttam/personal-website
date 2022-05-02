@@ -1,47 +1,61 @@
+/* colors
+dark blue                   #414D64
+accent light blue           #596985
+very light blue          #91BACE
+gray                     #5A656C
+ */
+
+body{
+    background-color:  #414D64 ;
+    color: #91BACE;
+    font-family: 'Nunito', sans-serif;
+}
 header{
-    margin-top: 20px;
-    display: flex;
-    width: 100%;
-    border-bottom: 1rem;
+   display:flex;
+    max-width: 960px;
+    margin: auto;
 }
 header img {
-    
     height: 65px;
     width: 65px;
-    margin-top: .5rem;
+    margin-top: 1.3rem;
     margin-left: 2%;
 }
 header h1{
     align-self: center;
-    margin-left: 1%;
+    font-family: 'Merriweather', serif;
+    margin-left: 2%;
     font-size: 45px; 
     min-width: 400px;
 }
- .bar{
-    height: 20px;
-    background-color: green
+ .nav{
+    height: 3px;
+    background-color: #1CE815;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
 }
 section {
     margin-top: 1rem;
     margin-left: 2%;
     margin-bottom: 2rem;
     max-width: 40rem;
-    padding: 2%;
-    box-shadow: 2px 2px 2px 2px ;
+    padding: 3%;
+    box-shadow: 2px 2px 10px 0px black;
 }
 
 .format{
     display: flex;
-   width: 800px;
+  max-width: 960px;
+  margin: auto;
 }
 .about{
     position: static;
-    width: 23rem;
+    width: 24rem;
 }
 .mainContent{
     position: static;
     width: 70rem;
-    margin-right:1rem;
+   
 }
 .card{
       max-width: 40rem;
@@ -58,6 +72,11 @@ section {
 }
 .programLang{
     grid-column: 3;
+    color:#E0E0E2;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size:medium;
     grid-row:1;
     text-align: right;
 }
@@ -78,7 +97,19 @@ section {
 .about {
     text-align: center;
 }
+.about-card{
+    padding-bottom: 3rem;
+}
 .about ul{
     text-align: left;
 }
+.contact-container{
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 
