@@ -18,7 +18,7 @@ header{
 header img {
     height: 65px;
     width: 65px;
-    margin-top: 1.3rem;
+    margin-top: 1rem;
     margin-left: 2%;
 }
 header h1{
@@ -26,6 +26,7 @@ header h1{
     font-family: 'Merriweather', serif;
     margin-left: 2%;
     font-size: 45px; 
+    margin-top: 1.5rem;
     min-width: 400px;
 }
  .nav{
@@ -60,6 +61,7 @@ section {
 }
 .card{
       max-width: 40rem;
+      background-color: #414D64;
 }
 
 .grid{
@@ -85,6 +87,7 @@ section {
     grid-row:1;
     text-align: right;
 }
+
 
 .content{
     padding-left: 5%;
@@ -120,12 +123,32 @@ section {
     align-items: center;
 }
 
+.nav-link{
+    font-family: 'Nunito', sans-serif;
+    color:#91BACE !important
+}
+.navbar-background{
+    border-bottom: 1px solid #1CE815;
+    color:#91BACE !important
+}
+.navbar-toggler-color{
+    color:#91BACE
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(145,186,206, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: #91BACE;
+  } 
+
 @media screen and (max-width: 428pt) {
     html{
        overflow-x: hidden;
     }
     body{
-        width: 92%;
+        width: 100%;
        overflow-x: hidden;
     }
     .format {
@@ -144,14 +167,16 @@ section {
         margin-left: 0;
     }
     header img{
-        width : 60pt;
-        height: 60pt;
-        margin-left: 0;
-        padding-top: 2.5rem; 
+        width : 65pt;
+        height: 65pt;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        padding-top: 1rem; 
     }
     header h1{
+        font-size: 30pt;
         align-self:flex-end;
-        margin-left: 2px;
+        margin-left: 1rem;
         padding-top: 1rem;   
   }
   .grid {
