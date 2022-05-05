@@ -185,5 +185,8 @@ section {
       border-bottom-width: 1px;
       border-bottom-color:  #596985;
   }
+  .nav-link{
+      font-size: xx-large;
+  }
 }
 
