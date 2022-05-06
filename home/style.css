@@ -68,6 +68,7 @@ section {
     display: grid;
     padding-left: 2%;
     padding-bottom: 1rem;
+    padding-top: 2rem;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom-color:  #596985;
@@ -91,6 +92,8 @@ section {
 
 .content{
     padding-left: 5%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     grid-row: 2;
     grid-column-end: span 3;
 }
@@ -98,12 +101,18 @@ section {
     display: flex;
     grid-row: 3;
     grid-column: 1;
-    justify-content: center;
+    justify-content:center;
     align-self: center;
     grid-column-end: span 3;
 }
 .grid.last{
     border-bottom-style: none;
+}
+.links{
+    display: flex;
+    grid-row: 3;
+    grid-column-end: span 3;
+    justify-content: space-evenly;
 }
 .about {
     width: 25%;
