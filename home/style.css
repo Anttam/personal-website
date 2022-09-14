@@ -10,24 +10,15 @@ body{
     color: #91BACE;
     font-family: 'Nunito', sans-serif;
 }
-header{
-   display:flex;
-    max-width: 960px;
-    margin: auto;
-    margin-left: 5%;
-}
+
 header img {
     height: 200px;
     width: 200px;
     margin-bottom: -40px;
+    margin-left: 4%;
 }
 
- .nav{
-    height: 3px;
-    background-color: #1CE815;
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-}
+
 section {
     margin-top: 1rem;
     margin-left: 2%;
@@ -112,12 +103,24 @@ section {
     width: 40%;
     text-align: center;
 }
+.about .sectionTitle{
+    border-bottom:  solid 1px #1CE815;
+    padding: 1rem;
+}
+.about .name{
+    margin-top: 20px;
+    margin-bottom: 10px; 
+}
+
+
+
 .about-card{
     padding-bottom: 3rem;
 
 }
 .about ul{
     text-align: left;
+    margin-left: 1rem;
 }
 .contact-container{
     display: flex;
@@ -129,7 +132,7 @@ section {
 
 .nav-link{
     font-family: 'Nunito', sans-serif;
-    color:#91BACE !important
+    color:#91BACE !important;
 }
 .navbar-background{
     border-bottom: 1px solid #1CE815;
@@ -146,6 +149,9 @@ section {
   .custom-toggler.navbar-toggler {
     border-color: #91BACE;
   } 
+  .container{
+    margin-left: 4%;
+  }
 
 @media screen and (max-width: 428pt) {
     html{
@@ -165,24 +171,14 @@ section {
     }
     .about{
         width: 97%;
-    }
-    header{
-        display :flex;
         margin-left: 0;
     }
     header img{
-        width : 65pt;
-        height: 65pt;
-        margin-left: 1rem;
-        margin-top: 2rem;
-        padding-top: 1rem; 
+        width : 200pt;
+        height: 200pt;
+        margin-top: 0rem;
     }
-    header h1{
-        font-size: 30pt;
-        align-self:flex-end;
-        margin-left: 1rem;
-        padding-top: 1rem;   
-  }
+
   .grid {
       padding-bottom: 1rem;
       border-bottom-style: solid;
